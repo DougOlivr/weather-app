@@ -4,7 +4,7 @@ import { DaysInfo } from './DaysInfo'
 export function MainContent() {
     return (
         <div className='flex flex-col items-center'>
-            <div>
+            <div className='flex flex-col'>
                 <div className="flex justify-end gap-3 mt-11 ">
                     <button className="w-10 h-10 rounded-full bg-bg-button font-bold text-white text-lg">℃</button>
                     <button className="w-10 h-10 rounded-full bg-bg-button font-bold text-white text-lg ">℉</button>
@@ -15,13 +15,14 @@ export function MainContent() {
                     <DaysInfo />
                     <DaysInfo />
                     <DaysInfo />
+                    
                 </div>
 
 
                 <main>
-                    <h1 className="text-white  font-bold text-2xl leading-7  mt-16 mb-8">Today's Hightlights</h1>
+                    <h1 className="text-white font-bold text-2xl leading-7 mt-16 mb-8">Today's Hightlights</h1>
 
-                    <div className="grid grid-cols-2 grid-rows-2 gap-12 ">
+                    <div className="grid grid-cols-2 grid-rows-2 gap-12">
                         <div className="h-52 w-80 bg-bg-sidebar ">
                             <div className="flex flex-col items-center h-full justify-center gap-4 ">
                                 <span className="text-white leading-5 ">Wind status</span>
