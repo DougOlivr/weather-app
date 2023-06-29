@@ -23,6 +23,13 @@ export interface TWeatherData {
         gust: number
 
     }
-    
 
+}
+
+export interface TWeatherCity {
+    country: string;
+    lat: number;
+    lon: number;
+    name: string;
+    state: string;
 }
